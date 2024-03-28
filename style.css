@@ -1,0 +1,248 @@
+*{
+
+margin:0px;
+padding: 0px;
+}
+html,body{
+    height: 750px;
+}
+.cont{
+    height: 750px;
+    position: relative;
+    
+}
+.cont div{
+    display: flex;
+    height:40px;    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    background-color: white;
+}
+
+.cont div label{
+    font-size: 1.25em;
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+    border: 0px solid;
+    border-radius: 50%;
+}
+.cont div label:hover{
+    background-color: rgb(224, 220, 220);
+    
+}
+input[type=checkbox]{
+    display: none;
+}
+
+.cont nav{
+    position: absolute;
+    top:60px;
+    width: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+    bottom:0;
+    transition: .5s ease;
+    background-color: white;
+}
+.cont nav ul{
+    padding: 0px 0px;
+}
+.cont nav ul li{
+    list-style-type: none;
+    
+}
+.cont nav ul li a{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;    
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px ;
+    height: 40px;
+    color: black;
+    border-radius: 12px;
+    
+}
+.cont nav ul li a i{
+    padding-right: 0.5rem;
+}
+.cont nav ul li a:hover{
+    background-color: rgb(227, 227, 227);
+    
+}
+input[type=checkbox]:checked ~ nav{
+    width: 230px;
+}
+#ytb{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    justify-content: center;
+}
+#src{
+    margin-left: 15em;
+    width: 520px;
+    height: 40px;
+    border: 1px solid rgb(217, 214, 214);
+    border-radius: 24px 0px 0px 24px;
+    padding: 5px 20px;
+}
+#src-btn{
+    width: 4em;
+    border: 1px solid rgb(217, 214, 214);
+    border-radius: 0px 24px 24px 0px;
+    background-color: #f8f8f8 ;
+}
+#src-btn:hover{
+    background-color:rgb(238, 237, 237); ;
+    
+}
+#mic{
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#mic:hover{
+    transform: scale(1.1);
+    background-color: rgb(196, 196, 196);
+}
+
+#video{
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 18rem;
+
+}
+#bell{
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#prf{
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: #f8f8f8;
+    font-size: medium;
+}
+
+#prf:hover {
+    transform: scale(1.1);    
+}
+#video:hover {
+    transform: scale(1.1);
+    background-color: rgb(196, 196, 196);    
+}
+#bell:hover {
+    transform: scale(1.1);
+    background-color: rgb(196, 196, 196);    
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 15px 6px;
+    padding-top: 1em;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 5em;
+    height: 100%;
+    
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    width: 6em;
+    height: 6em;
+    border: 1px solid white;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.sidebar a i{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.sidebar a:hover{
+    transform: scale(1.1);
+    background-color: rgb(235, 233, 233);
+}
+
+.submenu{
+    position: absolute;
+    top: 4em;
+    left: 17em;
+}
+.submenu a{
+    margin-right: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: 1px solid white;
+    padding: 3px 10px ;
+    border-radius: 12px;
+    background-color: rgb(241, 241, 241);
+    font-weight: 500;
+}
+.submenu a:hover{
+    transform: scale(1.1);
+    background-color: rgb(235, 233, 233);
+}
+
+.content{
+    position: absolute;
+    width: 80vw;
+    height: 100vh;
+    top: 6em;
+    left: 17em;
+    margin-top: 15px;
+    
+}
+.content .content-1{    
+    width: 25em;
+    height: 20em;    
+    text-align: left;
+    
+}
+.content .content-1 a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 25px 15px 10px;
+}
+.content .content-1 img{
+    margin-bottom: 7px;
+    border-radius: 12px;
+}
+.content .content-1 p{
+    padding-left: 2.5rem;
+    font-size: 14px;
+    margin: 0px;
+    color: gray;
+    
+}
+.content .content-1 a:hover{
+    transform: scale(1.1);
+    
+}

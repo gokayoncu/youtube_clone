@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="assets/youtube (1).svg" type="svg/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+  </head>
+  <body>
+    <!-- nav bar -->
+      <main class="cont">
+        <div>
+          <input type="checkbox" id="toogle">
+          <label for="toogle"><i class="fa-solid fa-bars"></i></label>
+          <!-- Checkbox Menu -->
+          <nav>
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-house"></i> Ana Sayfa</a></li>
+              <li><a href="#"><i  class="fa-regular fa-file-video"></i> Shorts</a></li>
+              <li><a href="#"><i  class="fa-solid fa-money-bill-wave"></i> Abonelikler</a></li><hr>
+              <li><a href="#">Siz ></a></li>
+              <li><a href="#"><i  class="fa-solid fa-user"></i> Kanalınız</a></li>
+              <li><a href="#"><i  class="fa-solid fa-clock-rotate-left"></i> Geçmiş</a></li>
+              <li><a href="#"><i  class="fa-solid fa-video"></i> Videolarınız</a></li>
+              <li><a href="#"><i  class="fa-regular fa-clock"></i> Daha sonra izle</a></li>
+              <li><a href="#"> Daha fazla göster</a></li><hr>
+              <li><h6 style="padding-left: 1rem;">Abonelikler</h6></li>
+              <li><a href="#"><i  class="fa-solid fa-user"></i> Patika.dev</a></li>
+              <li><a href="#"><i  class="fa-solid fa-user"></i> Kodluyoruz</a></li>
+              <li><a href="#"><i  class="fa-solid fa-user"></i> Gökay Öncü</a></li>
+              <li><a href="#"><i  class="fa-solid fa-user"></i> Nalet Bebe</a></li><hr>
+              <li><h6 style="padding-left: 1rem;">Keşfet</h6></li>
+              <li><a href="#"><i  class="fa-solid fa-fire"></i>Trendler</a></li>
+              <li><a href="#"><i  class="fa-solid fa-music"></i>Müzik</a></li>
+              <li><a href="#"><i  class="fa-solid fa-fire"></i>Canlı</a></li>
+              <li><a href="#"><i  class="fa-solid fa-gamepad"></i>Oyun</a></li>
+              <li><a href="#"><i  class="fa-solid fa-trophy"></i>Spor</a></li><hr>
+              <li><a href="#"><i  class="fa-solid fa-gear"></i>Ayarlar</a></li>
+              <li><a href="#"><i  class="fa-regular fa-flag"></i>içerik bildirme</a></li>
+              <li><a href="#"><i  class="fa-solid fa-question"></i>Yardım</a></li>
+              <li><a href="#"><i  class="fa-solid fa-exclamation"></i>Geri bildirim</a></li>
+
+            </ul>
+          </nav>
+          <!-- Checkbox Menu End -->
+          <a id="ytb" href="index.html"><i style="color: red;" class="fa-brands fa-youtube"></i>Youtube</a>
+          <input type="search" name="search" id="src" placeholder=" Ara">
+          <button type="submit" id="src-btn"><i class="fa fa-search"></i></button>
+          <button type="button" id="mic" ><i class="fa-solid fa-microphone"></i></button>
+          <button type="button"  id="video"><i class="fa-solid fa-video"></i></button>
+          <button type="button"  id="bell" class="position-relative" >
+            <i class="fa-regular fa-bell "></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+          <button type="button"  id="prf">G</button>
+                  
+        </div>
+        <!-- side bar -->
+        
+        <aside class="sidebar">
+          <a href="#"><i  class="fa-solid fa-house"></i><br> Ana Sayfa</a>
+          <a href="#"><i  class="fa-regular fa-file-video"></i><br> Shorts</a>
+          <a href="#"><i  class="fa-solid fa-money-bill-wave"></i><br> Abonelikler</a>
+          <a href="#"><i  class="fa-solid fa-video"></i><br> Siz</a>
+        </aside>
+        <!-- submenu -->
+        <section class="submenu">
+          <a href="#">Tümü</a>
+          <a href="#">Müzik</a>
+          <a href="#">Mix'ler</a>
+          <a href="#">Oyun</a>
+          <a href="#">Canlı</a>
+          <a href="#">Son Yüklenenler</a>
+          <a href="#">İzlenenler</a>
+          <a href="#">Yeni Öneriler</a>
+        </section>
+        
+        <!-- article -->
+        <article class="content">
+          <div class="content-1"> 
+            <a href="#" >
+              <img src="https://picsum.photos/id/237/350/200" alt="">
+              <h6><i style="font-size: 2rem;" class="fa-brands fa-reddit-alien"></i> Css Başlangıç Serisi</h6>
+              <p>Patika.dev</p>
+              <p>1 M görüntülenme 1 yıl önce</p>
+            </a>
+            <a href="#" >
+              <img src="https://picsum.photos/id/50/350/200" alt="">
+              <h6><i style="font-size: 2rem;" class="fa-brands fa-reddit-alien"></i> Css Başlangıç Serisi</h6>
+              <p>Patika.dev</p>
+              <p>1 M görüntülenme 1 yıl önce</p>
+            </a>
+            <a href="#" >
+              <img src="https://picsum.photos/id/67/350/200" alt="">
+              <h6><i style="font-size: 2rem;" class="fa-brands fa-reddit-alien"></i> Css Başlangıç Serisi</h6>
+              <p>Patika.dev</p>
+              <p>1 M görüntülenme 1 yıl önce</p>
+            </a>    
+
+          </div>
+          <div class="content-1"> 
+            <a href="#" >
+              <img src="https://picsum.photos/id/94/350/200" alt="">
+              <h6><i style="font-size: 2rem;" class="fa-brands fa-reddit-alien"></i> Css Başlangıç Serisi</h6>
+              <p>Patika.dev</p>
+              <p>1 M görüntülenme 1 yıl önce</p>
+            </a>
+            <a href="#" >
+              <img src="https://picsum.photos/id/147/350/200" alt="">
+              <h6><i style="font-size: 2rem;" class="fa-brands fa-reddit-alien"></i> Css Başlangıç Serisi</h6>
+              <p>Patika.dev</p>
+              <p>1 M görüntülenme 1 yıl önce</p>
+            </a>
+            <a href="#" >
+              <img src="https://picsum.photos/id/200/350/200" alt="">
+              <h6><i style="font-size: 2rem;" class="fa-brands fa-reddit-alien"></i> Css Başlangıç Serisi</h6>
+              <p>Patika.dev</p>
+              <p>1 M görüntülenme 1 yıl önce</p>
+            </a>    
+
+          </div>
+
+        </article>
+      </main>
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
